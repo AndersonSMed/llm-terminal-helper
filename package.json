@@ -12,6 +12,7 @@
     "typescript": "^5.0.0"
   },
   "scripts": {
-    "prepare": "husky"
+    "prepare": "husky",
+    "typecheck": "tsc --noEmit"
   }
 }
