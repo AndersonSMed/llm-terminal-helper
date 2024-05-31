@@ -1,18 +1,19 @@
 {
-  "name": "llm-terminal-helper",
-  "module": "src/index.ts",
-  "type": "module",
-  "devDependencies": {
-    "@commitlint/config-conventional": "^19.2.2",
-    "@types/bun": "^1.1.3",
-    "commitlint": "^19.3.0",
-    "husky": "^9.0.11"
-  },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
-  },
-  "scripts": {
-    "prepare": "husky",
-    "typecheck": "tsc --noEmit"
-  }
+	"name": "llm-terminal-helper",
+	"module": "src/index.ts",
+	"type": "module",
+	"devDependencies": {
+		"@commitlint/config-conventional": "^19.2.2",
+		"@types/bun": "^1.1.3",
+		"commitlint": "^19.3.0",
+		"husky": "^9.0.11",
+		"prettier": "^3.2.5"
+	},
+	"peerDependencies": {
+		"typescript": "^5.0.0"
+	},
+	"scripts": {
+		"prepare": "husky",
+		"typecheck": "tsc --noEmit"
+	}
 }

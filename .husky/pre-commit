@@ -1,1 +1,2 @@
 bun typecheck
+npx prettier ./src --ignore-unknown --write ${staged}
